@@ -36,6 +36,8 @@ switch (escolha)
         Console.WriteLine($"O resultado é: {resultado} ");
         break;
     case 4:
-
+        Multiplicacao mul1 = new Multiplicacao();
+        resultado = mul1.efetuarMultiplicacao(x,y);
+        Console.WriteLine($"O resultado é: {resultado} ");
         break;
 }
