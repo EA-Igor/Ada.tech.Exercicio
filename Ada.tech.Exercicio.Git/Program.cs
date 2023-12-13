@@ -3,7 +3,7 @@ using Ada.tech.Exercicio.Git;
 
 Console.WriteLine("Hello, World!");
 
-decimal x, y;
+decimal x, y, resultado;
 int escolha;
 
 Console.WriteLine("Bem-vindo a calculadora! ");
@@ -22,16 +22,20 @@ switch (escolha)
 {
     case 1:
         Subtracao sub1 = new Subtracao();
-        sub1.EfetuarSubtracao(x, y);
+        resultado = sub1.EfetuarSubtracao(x, y);
+        Console.WriteLine($"O resultado é: {resultado} ");
         break;
     case 2:
         Adicao add1 = new Adicao();
-        add1.EfetutuarAdicao(x, y);
+        resultado = add1.EfetutuarAdicao(x, y);
+        Console.WriteLine($"O resultado é: {resultado} ");
         break;
     case 3:
         Divisao div1 = new Divisao();
-        div1.efetuarDivisao(x, y);
+        resultado = div1.efetuarDivisao(x, y);
+        Console.WriteLine($"O resultado é: {resultado} ");
         break;
     case 4:
-        Multiplicacao mul1 = new Multiplicacao();
+
         break;
+}
