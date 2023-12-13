@@ -8,7 +8,7 @@ namespace Ada.tech.Exercicio.Git
 {
     internal class Adicao
     {
-        public decimal efetutuarAdicao(Decimal x, Decimal y)
+        public decimal EfetutuarAdicao(Decimal x, Decimal y)
         {
             return x + y;
         }
